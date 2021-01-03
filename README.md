@@ -1,2 +1,4 @@
 # configuration
-configs
+brew install coreutils
+
+source ~/.bashrc
