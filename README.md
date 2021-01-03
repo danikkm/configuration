@@ -1,4 +1,4 @@
 # configuration
-brew install coreutils
+`brew install coreutils`
 
-source ~/.bashrc
+`source ~/.bashrc`
