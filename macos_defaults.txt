@@ -1,0 +1,8 @@
+# Xcode backup settings
+defaults read com.apple.dt.Xcode > ~/Desktop/XcodeDefaults.plist
+
+# Enable project build time
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
+
+# Faster build times (>= Xcode 13.2 beta 2)
+defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
